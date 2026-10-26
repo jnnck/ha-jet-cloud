@@ -1,0 +1,79 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "JET Cloud-account",
+        "description": "Log in met het account dat je in de JET Cloud-app gebruikt. Pas de server en het projecttype alleen aan als je app een andere versie van JET Cloud is.",
+        "data": {
+          "email": "E-mail",
+          "password": "Wachtwoord",
+          "host": "Server",
+          "project_type": "Projecttype"
+        },
+        "data_description": {
+          "host": "API-server die de app gebruikt. Laat de standaardwaarde staan voor JET Cloud.",
+          "project_type": "Waarde van de projectType-header die de app meestuurt. Laat 10 staan voor JET Cloud."
+        }
+      },
+      "reauth_confirm": {
+        "title": "Opnieuw inloggen",
+        "description": "Het wachtwoord voor {email} wordt niet meer aanvaard. Geef het huidige wachtwoord in.",
+        "data": {
+          "password": "Wachtwoord"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Verkeerd e-mailadres of wachtwoord.",
+      "cannot_connect": "Kan de JET Cloud-server niet bereiken.",
+      "unknown": "Onverwachte fout, bekijk de logs."
+    },
+    "abort": {
+      "already_configured": "Dit account is al ingesteld.",
+      "reauth_successful": "Opnieuw ingelogd."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "grid_power": {
+        "name": "Uitgangsvermogen"
+      },
+      "grid_voltage": {
+        "name": "Netspanning"
+      },
+      "grid_current": {
+        "name": "Netstroom"
+      },
+      "grid_frequency": {
+        "name": "Netfrequentie"
+      },
+      "temperature": {
+        "name": "Temperatuur"
+      },
+      "pv_power": {
+        "name": "PV{pv} vermogen"
+      },
+      "pv_voltage": {
+        "name": "PV{pv} spanning"
+      },
+      "pv_current": {
+        "name": "PV{pv} stroom"
+      },
+      "energy_today": {
+        "name": "Energie vandaag"
+      },
+      "energy_total": {
+        "name": "Totale energie"
+      },
+      "work_mode": {
+        "name": "Werkmodus"
+      },
+      "wifi_signal": {
+        "name": "Wifi-signaal"
+      },
+      "plant_power": {
+        "name": "Vermogen"
+      }
+    }
+  }
+}

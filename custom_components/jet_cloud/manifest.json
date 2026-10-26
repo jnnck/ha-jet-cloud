@@ -1,0 +1,12 @@
+{
+  "domain": "jet_cloud",
+  "name": "JET Cloud (unofficial)",
+  "codeowners": ["@jnnck"],
+  "config_flow": true,
+  "documentation": "https://github.com/jnnck/ha-jet-cloud",
+  "integration_type": "hub",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/jnnck/ha-jet-cloud/issues",
+  "requirements": [],
+  "version": "0.1.0"
+}

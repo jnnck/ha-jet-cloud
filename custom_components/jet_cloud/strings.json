@@ -1,0 +1,79 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "JET Cloud account",
+        "description": "Log in with the account you use in the JET Cloud app. Only change the server and project type if your app is a rebranded version of JET Cloud.",
+        "data": {
+          "email": "Email",
+          "password": "Password",
+          "host": "Server",
+          "project_type": "Project type"
+        },
+        "data_description": {
+          "host": "API server used by the app. Keep the default for JET Cloud.",
+          "project_type": "Value of the projectType header the app sends. Keep 10 for JET Cloud."
+        }
+      },
+      "reauth_confirm": {
+        "title": "Log in again",
+        "description": "The password for {email} is no longer accepted. Enter the current password.",
+        "data": {
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Wrong email or password.",
+      "cannot_connect": "Could not reach the JET Cloud server.",
+      "unknown": "Unexpected error, check the logs."
+    },
+    "abort": {
+      "already_configured": "This account is already configured.",
+      "reauth_successful": "Logged in again."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "grid_power": {
+        "name": "Output power"
+      },
+      "grid_voltage": {
+        "name": "Grid voltage"
+      },
+      "grid_current": {
+        "name": "Grid current"
+      },
+      "grid_frequency": {
+        "name": "Grid frequency"
+      },
+      "temperature": {
+        "name": "Temperature"
+      },
+      "pv_power": {
+        "name": "PV{pv} power"
+      },
+      "pv_voltage": {
+        "name": "PV{pv} voltage"
+      },
+      "pv_current": {
+        "name": "PV{pv} current"
+      },
+      "energy_today": {
+        "name": "Energy today"
+      },
+      "energy_total": {
+        "name": "Total energy"
+      },
+      "work_mode": {
+        "name": "Work mode"
+      },
+      "wifi_signal": {
+        "name": "Wi-Fi signal"
+      },
+      "plant_power": {
+        "name": "Power"
+      }
+    }
+  }
+}

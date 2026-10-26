@@ -1,0 +1,1 @@
+{"result":0,"msg":"Login successfully.","obj":{"type":1,"user":{"id":1001,"userType":0,"email":"user@example.com","country":"Belgium","timeZone":1.0},"token":"test-token-1"},"data":null,"taskResult":null}
